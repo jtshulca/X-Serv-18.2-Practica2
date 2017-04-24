@@ -57,4 +57,4 @@ def redireccion(request, URL_corta):
         return HttpResponse(respuesta)
         
 def NotFoundErr(request):
-    return HttpResponse('<h1>!Algo has echo mal¡<h1>')
+    return HttpResponse('<h1>!Algo has hecho mal¡<h1>')
